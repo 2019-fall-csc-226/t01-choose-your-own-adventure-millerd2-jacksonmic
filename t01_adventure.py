@@ -67,12 +67,21 @@ if dead == True:
 
 #########################################################################################################
 # TODO Add your part of the story here. Keep in mind you may NOT be coming right after the example above.
-
-
+choice = input("[yes/no] ")
+print("You walk into a room and see a glass of milk sitting on a table. Do you drink it?)")
+if choice == "yes":
+    print("Great you refilled your health ")
+elif  choice == "no":
+    print("you die from starvation?!")
+    sleep(delay)
+else:
+    #neutral choice
+    print("you later found berries in the dark hall")
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 
-
+if dead == True:
+    print("Oh no! you died. Better luck next time! Try again by hitting the green play button")
 #########################################################################################################
 
 # The following is the end of the story. Don't change this section, unless you really want to
