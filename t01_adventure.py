@@ -67,11 +67,10 @@ if dead == True:
 
 #########################################################################################################
 # TODO Add your part of the story here. Keep in mind you may NOT be coming right after the example above.
-
-
-
-# TODO Don't forget to check if your user is dead at the end of your chapter!
-
+print("Would you like to fight the bear")
+choice = input("[Yes/No]")
+if choice == "yes":
+    print("you won")
 
 #########################################################################################################
 
