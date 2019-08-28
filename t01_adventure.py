@@ -78,6 +78,7 @@ else:
     #neutral choice
     print("you later found berries in the dark hall")
 
+
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 
 if dead == True:
