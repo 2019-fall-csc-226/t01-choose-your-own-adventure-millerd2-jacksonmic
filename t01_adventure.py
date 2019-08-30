@@ -78,6 +78,12 @@ else:
     #neutral choice
     print("you later found berries in the dark hall")
 
+print("In the dark hall you see a libra scale. You have to set the scale equal to a bar of silver.")
+choice = int(input("Pick a number"))
+if choice > 0 and choice <= 10:
+    print("A door opens")
+elif choice > 10:
+    print(" You fall to your death")
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 
